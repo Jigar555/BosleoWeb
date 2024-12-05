@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BosLeo</title>
+    <link rel="icon" type="image/png" sizes="51x50" href="assets/img/Bosleo/Logo.png">
+    <link rel="icon" type="image/png" sizes="51x50" href="assets/img/Bosleo/Logo.png">
+    <link rel="icon" type="image/png" sizes="51x50" href="assets/img/Bosleo/Logo.png">
+    <link rel="icon" type="image/png" sizes="51x50" href="assets/img/Bosleo/Logo.png">
+    <link rel="icon" type="image/png" sizes="51x50" href="assets/img/Bosleo/Logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/calendar.css">
+    <link rel="stylesheet" href="assets/css/donnutty.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="header-navigation">
+        <div class="header-nav-container">
+            <ul class="nav" style="display: flex;align-items: center;float: right;height: 100%;">
+                <li class="nav-item center-flex"><button class="btn btn-sm project-btn" type="button"><i class="fas fa-plus fa-sm" style="font-size: smaller;"></i>&nbsp;Add<strong> </strong>project</button></li>
+                <li class="nav-item">
+                    <div class="nav-item dropdown no-arrow"><a class="btn dropdown-toggle text-dark" data-toggle="dropdown" aria-expanded="false" role="button"><i class="fas fa-envelope fa-fw"></i><span class="badge badge-danger badge-counter">7</span></a>
+                        <div class="dropdown-menu dropdown-list dropdown-menu-right animated--grow-in shadow-sm"
+                            role="menu">
+                            <h6 class="dropdown-header theme-primary-bg" style="background: var(--theme-primary);border: none;">alerts center</h6>
+                            <a class="d-flex align-items-center dropdown-item" href="#">
+                                <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar4.jpeg">
+                                    <div class="bg-success status-indicator"></div>
+                                </div>
+                                <div class="font-weight-bold">
+                                    <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
+                                    <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                                </div>
+                            </a>
+                            <a class="d-flex align-items-center dropdown-item" href="#">
+                                <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar2.jpeg">
+                                    <div class="status-indicator"></div>
+                                </div>
+                                <div class="font-weight-bold">
+                                    <div class="text-truncate"><span>I have the photos that you ordered last month!</span></div>
+                                    <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                                </div>
+                            </a>
+                            <a class="d-flex align-items-center dropdown-item" href="#">
+                                <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar3.jpeg">
+                                    <div class="bg-warning status-indicator"></div>
+                                </div>
+                                <div class="font-weight-bold">
+                                    <div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div>
+                                    <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                                </div>
+                            </a>
+                            <a class="d-flex align-items-center dropdown-item" href="#">
+                                <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar5.jpeg">
+                                    <div class="bg-success status-indicator"></div>
+                                </div>
+                                <div class="font-weight-bold">
+                                    <div class="text-truncate"><span>Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</span></div>
+                                    <p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p>
+                                </div>
+                            </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-item dropdown no-arrow"><a class="btn dropdown-toggle text-dark" data-toggle="dropdown" aria-expanded="false" role="button"><span class="badge badge-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                        <div class="dropdown-menu dropdown-list dropdown-menu-right animated--grow-in"
+                            role="menu">
+                            <h6 class="dropdown-header">alerts center</h6>
+                            <a class="active d-flex align-items-center dropdown-item" href="#">
+                                <div class="mr-3">
+                                    <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                </div>
+                                <div><span class="small text-gray-500">December 12, 2019</span>
+                                    <p>A new monthly report is ready to download!</p>
+                                </div>
+                            </a>
+                            <a class="d-flex align-items-center dropdown-item" href="#">
+                                <div class="mr-3">
+                                    <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                </div>
+                                <div><span class="small text-gray-500">December 7, 2019</span>
+                                    <p>$290.29 has been deposited into your account!</p>
+                                </div>
+                            </a>
+                            <a class="d-flex align-items-center dropdown-item" href="#">
+                                <div class="mr-3">
+                                    <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                </div>
+                                <div><span class="small text-gray-500">December 2, 2019</span>
+                                    <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                </div>
+                            </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class="rounded-circle img-fluid border rounded" src="assets/img/avatars/avatar4.jpeg" width="32px"></a>
+                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">Profile</a><a class="dropdown-item" role="presentation" href="#">Admin</a>
+                        <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="#">Logout</a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-wrapper"><input type="checkbox" id="nav-checkbtn" class="hidden-navbtn">
+        <ul class="nav flex-column main-nav-toggle main-leftsidebar">
+            <li class="nav-item sidebar-firstmenu-item"><a class="nav-link disabled active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem2"><img class="sidemenu-logo" src="assets/img/Bosleo/Logo.png"><span class="logo-span">BosLeo</span></a></li>
+            <li class="nav-item sidebar-firstmenu-item active"><a class="nav-link active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem1"><img class="sidemenu-icon" src="assets/img/Bosleo/side-menu/home.png"><span>Home</span></a>
+                <ul class="nav collapse navitem1" data-parent=".main-nav-toggle">
+                    <li class="nav-item"><a class="nav-link active" href="#">a Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">b Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">c Third Item</a></li>
+                </ul>
+            </li>
+            <li class="nav-item sidebar-firstmenu-item"><a class="nav-link active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem2"><img class="sidemenu-icon" src="assets/img/Bosleo/side-menu/workflow.png"><span>Workflow</span></a>
+                <ul class="nav collapse navitem2" data-parent=".main-nav-toggle">
+                    <li class="nav-item"><a class="nav-link active" href="#">a Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">b Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">c Third Item</a></li>
+                </ul>
+            </li>
+            <li class="nav-item sidebar-firstmenu-item"><a class="nav-link active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem2"><img class="sidemenu-icon" src="assets/img/Bosleo/side-menu/statistics.png"><span>Statistics</span></a></li>
+            <li class="nav-item sidebar-firstmenu-item"><a class="nav-link active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem2"><img class="sidemenu-icon" src="assets/img/Bosleo/side-menu/calendar.png"><span>Calendar</span></a></li>
+            <li class="nav-item sidebar-firstmenu-item"><a class="nav-link active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem2"><img class="sidemenu-icon" src="assets/img/Bosleo/side-menu/user.png"><span>Users</span></a></li>
+            <li class="nav-item sidebar-firstmenu-item"><a class="nav-link active sb-firstmenu-link" href="#" data-toggle="collapse" data-target=".main-nav-toggle .navitem2"><img class="sidemenu-icon" src="assets/img/Bosleo/side-menu/setting.png"><span>Settings</span></a></li>
+        </ul>
+        <div class="main-content-panel"><label class="hidden-navbtn-label" for="nav-checkbtn"><i class="fas fa-caret-left mr-1 fa-sm" style="color: var(--theme-primary);"></i><i class="fas fa-bars"></i></label>
+            <div class="main-block">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <header class="my-3 theme-card-header">
+                            <h2>Hello John!</h2>
+                        </header>
+                    </div>
+                </div>
+                <div class="row no-gutters main-block-row">
+                    <div class="col-md-5 sales-chart-col">
+                        <div class="card">
+                            <div class="card-header bg-white border-0">
+                                <div class="row">
+                                    <div class="col-lg-6 start-flex py-2">
+                                        <h5 class="mb-0 header-font-grey">Your Sales</h5>
+                                    </div>
+                                    <div class="col-lg-6 flex-end-flex"><label class="select-custom-label">Period</label><select class="custom-select custom-select-sm select-custom"><option value="12" selected="">Last Year</option><option value="13">Current Year</option></select></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart-area sales-chart"><canvas data-bs-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Websie&quot;,&quot;Logo&quot;,&quot;Social Media&quot;,&quot;Adwords&quot;,&quot;E-Commerce&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Main Chart&quot;,&quot;backgroundColor&quot;:[&quot;#4b74e0&quot;,&quot;#4164c2&quot;,&quot;#3755a4&quot;,&quot;#25396e&quot;,&quot;#5584ff&quot;],&quot;borderColor&quot;:[&quot;rgba(255,255,255,0)&quot;,&quot;rgba(255,255,255,0)&quot;,&quot;rgba(255,255,255,0)&quot;,&quot;rgba(255,255,255,0)&quot;,&quot;rgba(255,255,255,0)&quot;],&quot;data&quot;:[&quot;12&quot;,&quot;10&quot;,&quot;40&quot;,&quot;20&quot;,&quot;30&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;position&quot;:&quot;right&quot;,&quot;reverse&quot;:false},&quot;title&quot;:{&quot;display&quot;:false,&quot;position&quot;:&quot;left&quot;,&quot;fontFamily&quot;:&quot;Nunito, sans-serif&quot;,&quot;text&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;21&quot;}}}"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 report-col">
+                        <div class="card">
+                            <div class="card-header bg-white border-0">
+                                <div class="row">
+                                    <div class="col-lg-8 start-flex py-2">
+                                        <h5 class="mb-0 header-font-grey">Report</h5>
+                                    </div>
+                                    <div class="col-lg-4 flex-end-flex"><label class="select-custom-label">Period</label><select class="custom-select custom-select-sm select-custom"><option value="12" selected="">Last Year</option><option value="13">Current Year</option></select></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart-area report-chart"><canvas data-bs-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Earnings&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;100&quot;,&quot;10000&quot;,&quot;5000&quot;,&quot;15000&quot;,&quot;10000&quot;,&quot;20000&quot;,&quot;15000&quot;,&quot;25000&quot;],&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;#5584ff&quot;,&quot;borderWidth&quot;:&quot;3&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;position&quot;:&quot;bottom&quot;,&quot;reverse&quot;:false},&quot;title&quot;:{},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:true,&quot;borderDash&quot;:[&quot;0&quot;],&quot;zeroLineBorderDash&quot;:[&quot;0&quot;],&quot;drawOnChartArea&quot;:true},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;beginAtZero&quot;:true,&quot;padding&quot;:8}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:true,&quot;borderDash&quot;:[&quot;0&quot;],&quot;zeroLineBorderDash&quot;:[&quot;0&quot;],&quot;drawOnChartArea&quot;:true},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;beginAtZero&quot;:true,&quot;padding&quot;:8}}]}}}"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters main-block-row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header bg-white border-0">
+                                <div class="row">
+                                    <div class="col-8 start-flex">
+                                        <h5 class="mb-0 header-font-grey">Total sales</h5>
+                                    </div>
+                                    <div class="col-4 flex-end-flex">
+                                        <div class="btn-group icon-btngrp" role="group"><button class="btn btn-sm mr-2" type="button"><img class="img-fluid" src="assets/img/edit45.png" loading="lazy"></button><button class="btn btn-sm" type="button"><img class="img-fluid" src="assets/img/delete81%20(1).png" loading="lazy"></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-4 start-flex">
+                                        <div class="row">
+                                            <div class="col-8 flex-end-flex">
+                                                <div class="donut-container" data-donutty="" data-value="45" data-color="var(--theme-primary)" data-radius="50" data-padding="4" data-circle="true"><span class="donut-container-count theme-primary">45%</span></div>
+                                            </div>
+                                            <div class="col-4 start-flex">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h4 class="mb-0"><strong>2,300$</strong></h4><sub>Direct Sales</sub></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 start-flex">
+                                        <div class="row">
+                                            <div class="col-8 flex-end-flex">
+                                                <div class="donut-container" data-donutty="" data-value="20" data-color="var(--theme-purple)" data-radius="50" data-padding="4" data-circle="true"><span class="donut-container-count theme-purple">20%</span></div>
+                                            </div>
+                                            <div class="col-4 start-flex">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h4 class="mb-0"><strong>2,300$</strong></h4><sub>Direct Sales</sub></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 start-flex">
+                                        <div class="row">
+                                            <div class="col-8 flex-end-flex">
+                                                <div class="donut-container" data-donutty="" data-value="25" data-color="var(--theme-pink)" data-radius="50" data-padding="4" data-circle="true"><span class="donut-container-count theme-pink">25%</span></div>
+                                            </div>
+                                            <div class="col-4 start-flex">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h4 class="mb-0"><strong>2,300$</strong></h4><sub>Direct Sales</sub></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters main-block-row">
+                    <div class="col-md-4 task-col">
+                        <div class="card">
+                            <div class="card-header bg-white py-2">
+                                <div class="row">
+                                    <div class="col-8 start-flex">
+                                        <h6 class="mb-0 theme-card-header">Tasks</h6>
+                                    </div>
+                                    <div class="col-4 flex-end-flex"><span class="mr-2 notify-span theme-primary-bg">5</span><span class="notify-span theme-pink-bg">5</span></div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-group task-sms-list-gp">
+                                    <li class="list-group-item task-sms-list-li">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/Static%20Avatar%20Images/m.png" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <h6 class="theme-card-header mb-0">Heading</h6><sub class="theme-pink"><i class="far fa-clock"></i>&nbsp;5 days delays</sub></div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item task-sms-list-li">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/Static%20Avatar%20Images/s.png" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <h6 class="theme-card-header mb-0">Heading</h6><sub class="theme-pink"><i class="far fa-clock"></i>&nbsp;5 days delays</sub></div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item task-sms-list-li">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/Static%20Avatar%20Images/n.png" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <h6 class="theme-card-header mb-0">Heading</h6><sub class="theme-pink"><i class="far fa-clock"></i>&nbsp;5 days delays</sub></div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item task-sms-list-li">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/Static%20Avatar%20Images/f.png" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <h6 class="theme-card-header mb-0">Heading</h6><sub class="theme-pink"><i class="far fa-clock"></i>&nbsp;5 days delays</sub></div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 message-col">
+                        <div class="card">
+                            <div class="card-header bg-white py-2">
+                                <div class="row">
+                                    <div class="col-8 start-flex">
+                                        <h6 class="mb-0 theme-card-header">Messages</h6>
+                                    </div>
+                                    <div class="col-4"><span class="notify-span theme-primary-bg">2</span></div>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-group task-sms-list-gp">
+                                    <li class="list-group-item task-sms-list-li py-2">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/avatars/avatar2.jpeg" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12"><sub class="theme-card-header">Nina Jones</sub><sub class="ml-1">&nbsp;5 minutes ago</sub></div>
+                                                    <div class="col-12 start-flex pt-1 pb-2"><sub class="text-dark">5 days delays</sub></div>
+                                                    <div class="col-12 start-flex">
+                                                        <div class="btn-group" role="group"><button class="btn btn-sm small-btn mr-1" type="button"><i class="fas fa-share"></i></button><button class="btn btn-sm small-btn" type="button"><i class="fas fa-cog"></i></button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item task-sms-list-li py-2">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/avatars/avatar2.jpeg" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12"><sub class="theme-card-header">Nina Jones</sub><sub class="ml-1">&nbsp;5 minutes ago</sub></div>
+                                                    <div class="col-12 start-flex pt-1 pb-2"><sub class="text-dark">5 days delays</sub></div>
+                                                    <div class="col-12 start-flex">
+                                                        <div class="btn-group" role="group"><button class="btn btn-sm small-btn mr-1" type="button"><i class="fas fa-share"></i></button><button class="btn btn-sm small-btn" type="button"><i class="fas fa-cog"></i></button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item task-sms-list-li py-2">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/avatars/avatar2.jpeg" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12"><sub class="theme-card-header">Nina Jones</sub><sub class="ml-1">&nbsp;5 minutes ago</sub></div>
+                                                    <div class="col-12 start-flex pt-1 pb-2"><sub class="text-dark">5 days delays</sub></div>
+                                                    <div class="col-12 start-flex">
+                                                        <div class="btn-group" role="group"><button class="btn btn-sm small-btn mr-1" type="button"><i class="fas fa-share"></i></button><button class="btn btn-sm small-btn" type="button"><i class="fas fa-cog"></i></button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item task-sms-list-li py-2">
+                                        <div class="row">
+                                            <div class="col-2 p-1 center-flex"><img class="img-fluid avatar-img" src="assets/img/avatars/avatar2.jpeg" loading="lazy" width="90%"></div>
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12"><sub class="theme-card-header">Nina Jones</sub><sub class="ml-1">&nbsp;5 minutes ago</sub></div>
+                                                    <div class="col-12 start-flex pt-1 pb-2"><sub class="text-dark">5 days delays</sub></div>
+                                                    <div class="col-12 start-flex">
+                                                        <div class="btn-group" role="group"><button class="btn btn-sm small-btn mr-1" type="button"><i class="fas fa-share"></i></button><button class="btn btn-sm small-btn" type="button"><i class="fas fa-cog"></i></button></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 center-flex">
+                                                <div class="dropdown no-arrow"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                                    <div class="dropdown-menu shadow-sm" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 calendar-col">
+                        <div class="card">
+                            <div class="card-header bg-white py-2">
+                                <div class="row">
+                                    <div class="col-8 start-flex">
+                                        <h6 class="mb-0 theme-card-header">Calendar</h6>
+                                    </div>
+                                    <div class="col-4"><span class="invisible notify-span theme-primary-bg">2</span></div>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <div><div class="calendar" id="table">
+            <div class="header-month">
+                <div class="month" id="month-header">
+
+                </div>
+                <div class="buttons">
+                    <button class="month-btn" onclick="prevMonth()" title="Mês anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="month-btn" onclick="nextMonth()" title="Próximo mês"><i class="fas fa-chevron-right "></i></button>
+                </div>
+            </div>
+        </div>
+
+  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/calendar.js"></script>
+    <script src="assets/js/donutty-chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+</body>
+
+</html>
